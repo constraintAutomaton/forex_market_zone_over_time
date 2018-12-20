@@ -48,7 +48,7 @@ class forex_time_zone(Ui_Dialog):
         """
         Set the color of the background by zone
         """
-    	for i in range(0,4):
+        for i in range(0,4):
             if i==0:
                 list_hour = self.hour_operation_london
                 color = QtCore.Qt.green
